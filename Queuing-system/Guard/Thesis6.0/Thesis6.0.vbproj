@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6DDA9B27-DA45-4485-BA88-8BB47BE92D32}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Thesis6._0.My.MyApplication</StartupObject>
+    <RootNamespace>Thesis6._0</RootNamespace>
+    <AssemblyName>Thesis6.0</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Thesis6.0.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Thesis6.0.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.Designer.vb">
+      <DependentUpon>Account.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Account.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminbtnQueue.Designer.vb">
+      <DependentUpon>AdminbtnQueue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminbtnQueue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CashierbtnQueue.Designer.vb">
+      <DependentUpon>CashierbtnQueue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CashierbtnQueue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateAccount.Designer.vb">
+      <DependentUpon>CreateAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword2.Designer.vb">
+      <DependentUpon>ForgotPassword2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.Designer.vb">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuardPalace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuardPalace.Designer.vb">
+      <DependentUpon>GuardPalace.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RegistrarbtnQueue.Designer.vb">
+      <DependentUpon>RegistrarbtnQueue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegistrarbtnQueue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotAvailable.Designer.vb">
+      <DependentUpon>NotAvailable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NotAvailable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SGbtnQueue.Designer.vb">
+      <DependentUpon>SGbtnQueue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SGbtnQueue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValidationForm.Designer.vb">
+      <DependentUpon>ValidationForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValidationFormAdmin.Designer.vb">
+      <DependentUpon>ValidationFormAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationFormAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValidationFormCashier.Designer.vb">
+      <DependentUpon>ValidationFormCashier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationFormCashier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValidationFormPriorityAdmin.Designer.vb">
+      <DependentUpon>ValidationFormPriorityAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationFormPriorityAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValidationFormPriorityCashier.Designer.vb">
+      <DependentUpon>ValidationFormPriorityCashier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationFormPriorityCashier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValidationFormPrioritySG.Designer.vb">
+      <DependentUpon>ValidationFormPrioritySG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationFormPrioritySG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValidationFormReg.Designer.vb">
+      <DependentUpon>ValidationFormReg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationFormReg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValidationFormPriorityReg.Designer.vb">
+      <DependentUpon>ValidationFormPriorityReg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationFormPriorityReg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValidationFormSG.Designer.vb">
+      <DependentUpon>ValidationFormSG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationFormSG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Account.resx">
+      <DependentUpon>Account.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminbtnQueue.resx">
+      <DependentUpon>AdminbtnQueue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CashierbtnQueue.resx">
+      <DependentUpon>CashierbtnQueue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccount.resx">
+      <DependentUpon>CreateAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword2.resx">
+      <DependentUpon>ForgotPassword2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuardPalace.resx">
+      <DependentUpon>GuardPalace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegistrarbtnQueue.resx">
+      <DependentUpon>RegistrarbtnQueue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotAvailable.resx">
+      <DependentUpon>NotAvailable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SGbtnQueue.resx">
+      <DependentUpon>SGbtnQueue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidationForm.resx">
+      <DependentUpon>ValidationForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidationFormAdmin.resx">
+      <DependentUpon>ValidationFormAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidationFormCashier.resx">
+      <DependentUpon>ValidationFormCashier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidationFormPriorityAdmin.resx">
+      <DependentUpon>ValidationFormPriorityAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidationFormPriorityCashier.resx">
+      <DependentUpon>ValidationFormPriorityCashier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidationFormPrioritySG.resx">
+      <DependentUpon>ValidationFormPrioritySG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidationFormReg.resx">
+      <DependentUpon>ValidationFormReg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidationFormPriorityReg.resx">
+      <DependentUpon>ValidationFormPriorityReg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidationFormSG.resx">
+      <DependentUpon>ValidationFormSG.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-page-hero-background.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\74415715_804121116690948_7513119757554417664_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-close-button-png-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gnome_panel_force_quit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buttonbackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapter2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapter21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapter22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapter4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapter23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapter24.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

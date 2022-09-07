@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B6FE62B3-4099-4172-84E1-6A5EE1F43E42}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Thesisv6._0Registrar.My.MyApplication</StartupObject>
+    <RootNamespace>Thesisv6._0Registrar</RootNamespace>
+    <AssemblyName>Thesisv6.0Registrar</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Thesisv6.0Registrar.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Thesisv6.0Registrar.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.Designer.vb">
+      <DependentUpon>Account.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Account.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Approved.Designer.vb">
+      <DependentUpon>Approved.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Approved.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateAccount.Designer.vb">
+      <DependentUpon>CreateAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreateAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Declined.Designer.vb">
+      <DependentUpon>Declined.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Declined.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplaySchoolPicture.Designer.vb">
+      <DependentUpon>DisplaySchoolPicture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DisplaySchoolPicture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.Designer.vb">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword2.Designer.vb">
+      <DependentUpon>ForgotPassword2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdmissionaddPurpose.Designer.vb">
+      <DependentUpon>AdmissionaddPurpose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdmissionaddPurpose.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdmissionDone.Designer.vb">
+      <DependentUpon>AdmissionDone.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdmissionDone.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdmissionHistory.Designer.vb">
+      <DependentUpon>AdmissionHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdmissionHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdmissionPlace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdmissionPlace.Designer.vb">
+      <DependentUpon>AdmissionPlace.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage.Designer.vb">
+      <DependentUpon>Manage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Manage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monitor.Designer.vb">
+      <DependentUpon>Monitor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="AdmissionPopup.Designer.vb">
+      <DependentUpon>AdmissionPopup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdmissionPopup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reset.Designer.vb">
+      <DependentUpon>Reset.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reset.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ValidationForm.Designer.vb">
+      <DependentUpon>ValidationForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Account.resx">
+      <DependentUpon>Account.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Approved.resx">
+      <DependentUpon>Approved.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateAccount.resx">
+      <DependentUpon>CreateAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Declined.resx">
+      <DependentUpon>Declined.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplaySchoolPicture.resx">
+      <DependentUpon>DisplaySchoolPicture.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword2.resx">
+      <DependentUpon>ForgotPassword2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage.resx">
+      <DependentUpon>Manage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitor.resx">
+      <DependentUpon>Monitor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdmissionaddPurpose.resx">
+      <DependentUpon>AdmissionaddPurpose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdmissionDone.resx">
+      <DependentUpon>AdmissionDone.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdmissionHistory.resx">
+      <DependentUpon>AdmissionHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdmissionPlace.resx">
+      <DependentUpon>AdmissionPlace.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdmissionPopup.resx">
+      <DependentUpon>AdmissionPopup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reset.resx">
+      <DependentUpon>Reset.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ValidationForm.resx">
+      <DependentUpon>ValidationForm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-close-button-png-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gnome_panel_force_quit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\78659007_415669205976416_1393386243789684736_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\74415715_804121116690948_7513119757554417664_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Noticfication.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-page-hero-background.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home-page-hero-background1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\form.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\75394260_499920003940414_3403382877633642496_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logooo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bpcpart2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bpcpart3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PART2MONITOR1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapter2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapter3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PART3MONITOR.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PART3MONITOR1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapter4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\controllerbackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notification.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notification1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PART4MONITOR.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PART4MONITOR1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PART4MONITOR2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapter21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administratorbackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADMINISTRATOR.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADMINISTRATOR1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapter22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapter23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapter24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chapter25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bpc-malolos.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
